@@ -25,10 +25,10 @@ public class Menu
         do
         {
             Console.WriteLine("\n*** Menu Journal ***");
-            Console.WriteLine("1. Write a new entry");
-            Console.WriteLine("2. Show journal");
-            Console.WriteLine("3. Save the journal to a file");
-            Console.WriteLine("4. Load journal from file");
+            Console.WriteLine("1. Write");
+            Console.WriteLine("2. Display");
+            Console.WriteLine("3. Save");
+            Console.WriteLine("4. Load");
             Console.WriteLine("5. Exit");
             Console.Write("Choose an option: ");
             option = int.Parse(Console.ReadLine());
