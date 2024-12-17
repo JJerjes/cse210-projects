@@ -1,9 +1,15 @@
 using System;
+using System.Collections.Generic;
 
-class Program
+namespace ActivitySix
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello Develop06 World!");
+        static void Main(string[] args)
+        {
+            GoalManager manager = new GoalManager();
+            manager.Start();
+        }
     }
 }
+
